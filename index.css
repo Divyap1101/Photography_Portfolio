@@ -1,0 +1,222 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    padding:2px;
+}
+
+.left{
+    float:left;
+    padding-left: 50px;
+    font-size: 25px;
+    font-family: 'Satisfy', cursive;
+    color:#ffff;
+}
+.left::before{
+    content: 'Dc';
+    color:mediumblue;
+    font-size: 35px;
+}
+.right{
+    float: right;
+    padding-right: 60px;
+}
+.right a{
+    float:left;
+    margin-top:22px;
+    margin-left:20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    color:#f8f4f4;
+    transform: 0.3ms;
+}
+.right a:hover{
+    color:#f55c47;
+}
+section{
+    background:url(../IMG/photo.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:550px;
+    color:#ffff;
+    padding-top:2px;
+    text-shadow: 2px 1.3px rgba(0, 0, 0, 0.6);
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2.2px;
+    animation: fadeInAnimation ease-out 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    2% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+section h1{
+    padding-top:200px;
+    padding-left:100px;
+}
+section h1::before{
+    content: 'Hello,';
+    color:rgba(12, 12, 12,0.2);
+    padding-right: 3px;
+}
+section h2{
+    padding-left:100px;
+    margin-top:-10px;
+
+}
+section button{
+    margin:10px;
+}
+section div{
+    margin-left:100px;
+}
+.contact{
+    background: #e4efe7;
+    overflow: hidden;
+}
+.contact p{
+    font-size: 40px;
+    padding:100px;
+    display: inline-flex;
+}
+.contact button{
+    float: right;
+    font-size:13px;
+    color:white;
+    background-color: #ff0000;
+    border:#ff0000 solid 1px;
+    border-radius: 1px;
+    margin-top:110px;
+    border-radius: 4px;
+    margin-right: 200px;
+    text-transform: uppercase;
+    padding:10px 15px;
+    background: linear-gradient(to left, #ff0000 50%,hsla(145, 84%, 15%, 0.555) 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+.contact button:hover{
+      background-position: left;
+      border:1px #FFAEBC solid;
+}
+.service{
+    text-align: center;
+    
+}
+.service p{
+    font-size: 40px;
+    margin-top:80px;
+    margin-bottom: 20px;
+}
+.service .type{
+    display:inline-flex;
+    text-align: center;
+    margin:20px;    
+}
+.service .type div{
+    margin: 0px 60px;
+    background-color: #f5abc9;
+    border: 1px solid black;
+    border-radius: 8px;
+    color:darkred;
+}
+.service div i{
+    font-size: 65px;
+    border:2px solid rgb(253, 253, 253);
+    border-radius: 5px;
+    padding:9px;
+    margin:20px;
+    background-color: #ffff;
+    transition: 0.1s ease-out;
+}
+.service div i:hover{
+    background-color: yellow;
+    border-radius:50%;
+    padding:20px;
+    border: 1px solid yellow;
+}
+.work{
+    height:auto;
+    overflow: hidden;
+    text-align: center;
+}
+.work h1{
+    text-align: center;
+    margin:20px 10px;
+    transition: 0.1s ease-in-out;
+}
+.work h1:hover{
+    text-decoration: underline #ccbefe;
+    color:#ffc947;
+}
+.work .top{
+    width:1000px; 
+    height:auto;
+    display: inline-flex;
+    margin-left: 180px;
+    
+}
+.work .top img{
+    height:500px;
+  padding-left: 30px;
+}
+.work .center{
+    width:1000px; 
+    height:auto;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.work .center img{
+    height:400px;
+  text-align: center;
+  padding-left: 90px;
+}
+.work .bottom{
+    width:1000px; 
+    height:auto;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.work .bottom img{
+    height:600px;
+  text-align: center;
+  padding-left: 90px;
+}
+#more{
+    display: none;
+}
+.work button{
+    margin-left:600px;
+    padding:10px 30px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+footer{
+    text-align: center;
+    background: hsla(19, 98%, 50%, 0.6);
+    color:rgb(7, 0, 0);
+    padding:20px;
+}
+footer h1{
+    font-family: 'Satisfy', cursive;
+    color:navy;
+}
+footer h4{
+    color:navy;
+    
+}

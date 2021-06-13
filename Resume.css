@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+main{
+    overflow:hidden;
+
+}
+body .left{
+    float:left;
+    overflow:hidden;
+}
+
+.left img{
+   width:18px;
+   height:18px;
+}
+.left .name{
+    font-size:28px;
+    color:#ffff;
+    margin:35px 30px;
+}
+.left .image{
+    margin:35px 30px;
+}
+
+.left .education {
+    margin-top:35px;
+}
+
+.left .skill {
+    margin: 35px 30px;
+}
+
+/*Right part of page*/
+
+.right img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    border:2px solid #808080;
+    padding:07px;
+}
+
+body .right{
+    float:right;  
+    overflow:hidden;
+}
+.right header {
+    float: left;
+    margin-right: 170px;
+}
+
+header .one{
+    float:left;
+    margin-top:80px;
+    margin-bottom:80px;
+    
+}
+header .two{
+    float:right;
+    margin-left:80px;
+    margin-top:75px;
+}
+
+.two .profile{
+    letter-spacing:04px;
+    font-size:35px;
+}
+
+.two .detail{
+    font-size:19px;
+    margin-top:20px;
+}
+.three .exp {
+    margin-bottom: 40px;
+    letter-spacing: 04px;
+    font-size: 30px;
+}
